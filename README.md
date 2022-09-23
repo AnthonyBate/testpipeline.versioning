@@ -1,8 +1,8 @@
 # testpipeline.versioning
-```mermaid
-sequenceDiagram
+```plantuml
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
-Alice -> Bob:Another authentication Response
-Bob --> Alice: Another authentication Response
+   
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
 ```
